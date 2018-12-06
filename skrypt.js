@@ -12,7 +12,7 @@
 	   } 
 	 
     if(!dobreImie){
-	alert("Nie jesteś Diana!");
+	alert("Nie jesteś Dianą!");
 	return;}	
 	   
 	   if(haslo.value == "grejfrut"){
@@ -37,7 +37,7 @@
 			przyciskWyloguj.style.visibility = "hidden";
 			mojRuch = !mojRuch;
 			} else {
-			nagl.innerHTML="TO jest stronka dla Diany. Buziaki...";
+			nagl.innerHTML="To jest stronka dla Diany. Buziaki...";
 			nagl.style.color = "yellow";
 			przycisk.innerHTML = "Kliknij mnie!";
 			przyciskWyloguj.style.visibility = "visible";
